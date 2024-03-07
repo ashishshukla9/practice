@@ -4,8 +4,8 @@ import blog from '../../assets/blog/01.jpg'
 import blog2 from '../../assets/blog/02.jpg'
 import blog3 from '../../assets/blog/03.jpg'
 import education from '../../assets/education.png'
-import education2 from '../../assets/education.png'
-import education3 from '../../assets/education.png'
+import education2 from '../../assets/heartbeat.png'
+import education3 from '../../assets/x-ray.png'
 const Program = () => {
     return (
         <div className='programs'>
@@ -30,7 +30,7 @@ const Program = () => {
                     <p>Masters Degree</p>
                 </div>
             </div>
-            https://www.youtube.com/watch?v=WbV3zRgpw_E
+           
         </div>
         
     )
