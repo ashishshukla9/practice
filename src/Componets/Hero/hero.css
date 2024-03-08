@@ -23,7 +23,21 @@
      line-height: 1.4;
  }
 
-  .dark-btn{
+ .dark-btn {
      background: #212EA0;
      color: #fff;
+ }
+
+ /* Media Query */
+ @media (max-width:650px) {
+     .hero-text h1 {
+         font-size: 30px;
+         max-width: 400px;
+         margin: auto;
+     }
+
+     .hero-text p {
+         font-size: 14px;
+         margin: 15px auto 30px;
+     }
  }

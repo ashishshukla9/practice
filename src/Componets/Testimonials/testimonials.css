@@ -44,7 +44,7 @@
 
 .slide {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
@@ -52,10 +52,14 @@
 }
 
 .slide img {
-    width: 85px;
+    width: 65px;
     border-radius: 50%;
     margin-right: 10px;
     border: 4px solid #212EA0;
+}
+
+.slide p {
+    font-size: 14px;
 }
 
 .user-info {
@@ -67,4 +71,47 @@
 
 .user-info h3 {
     color: #212EA0;
+}
+
+/* Media Query */
+
+@media(max-width:800px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+
+    .next-btn,
+    .back-btn {
+        padding: 10px;
+        width: 35px;
+    }
+
+    .testimonials ul li {
+        padding: 10px;
+    }
+
+    .slide {
+        padding: 10px;
+    }
+
+    .slide img {
+        width: 50px;
+        border: 3px solid #212EA0;
+    }
+}
+
+@media (max-width:600px) {
+    .user-info {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .user-info h3 {
+        font-size: 16px;
+    }
+
+    .slide p {
+        font-size: 12px;
+    }
 }
